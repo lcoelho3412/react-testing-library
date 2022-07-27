@@ -1,9 +1,8 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import renderWithRouter from './RenderWithRouter';
 import App from '../App';
-import { FavoritePokemons } from '../pages';
 
 describe('Teste o componente <FavoritePokemons.js />', () => {
   it(
